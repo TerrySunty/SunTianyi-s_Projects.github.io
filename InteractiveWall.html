@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>体感互动墙</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">About</h4>
+                    <p class="text-muted">此网站为孙田一本人个人作品集展示。</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">联系我 Contact Me</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://space.bilibili.com/130853098/channel/detail?cid=148180" class="text-white">本人哔哩哔哩bilibili作品集相关视频</a></li>
+                        <li><h6 style="color: #ffffff">Email: terrysunty@qq.com</h6></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <strong>TerrySunty | 体感互动墙</strong>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1>结合UE4和Kinect开发的体感互动墙</h1>
+            <p class="lead text-muted">
+                （本人负责多人游戏功能的实现)<br/>
+                该项目可应用于会客室
+            </p>
+
+        </div>
+    </section>
+
+
+    <div class="album py-5 bg-transparent" align="center">
+        <div class="album py-5 bg-dark" align="center" style="width:50%">
+            <h4 style="color: white">项目描述</h4>
+            <p style="color: white;text-align: left">
+                这是我本科时所在的游戏工作室为中国广西的一家酒店开发的外包项目。这款游戏是基于UE4和Kinect开发的。这个游戏可以让顾客在会客室中等待时打发时间，使得等待过程没那么枯燥。
+                <br/>
+                <br/>
+                游戏中会有一个或几个火柴人(最多五个)，对应于放置在会议室的Kinect捕捉的玩家数量。火柴人会模仿玩家的动作，
+                当玩家同时进行单手Lasso手势(食指中指伸出且并拢）或双手张开手势时，会有不同的特效。为了增加游戏的趣味性，火柴人的胳膊和腿都具有一定的弹性。
+                我在项目中负责多人游戏功能的实现。
+            </p>
+        </div>
+        <div class="album py-5 bg-dark" align="center" style="width: 50%;margin-top: 30px">
+            <h4 style="color: white">效果展示视频</h4><br>
+            <video width="600" height="450" controls>
+                <source src="Wall.mp4" type="video/mp4">
+                您的浏览器不支持 video 标签。
+            </video>
+            <br/>
+        </div>
+
+        <div class="album py-5 bg-dark" align="center" style="width: 50%; margin-top: 30px">
+            <h4 style="color: white">部分截图</h4>
+            <img src="./img/Wall1.png" alt="示意图1" width="70%" height="100%" style="margin-top: 50px"><br>
+            <br/>
+            <img src="./img/Wall2.png" alt="示意图2" width="70%" height="50%" style="margin-top: 50px"><br/>
+            <br/>
+            <img src="./img/Wall3.png" alt="示意图3" width="70%" height="50%" style="margin-top: 50px"><br/>
+            <br/>
+            <img src="./img/Wall4.png" alt="示意图4" width="70%" height="50%" style="margin-top: 50px"><br/>
+        </div>
+
+    </div>
+
+
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="float-right">
+            <a href="index.html" >返回首页</a><br/>
+            <a href="#">Back to top</a>
+        </p>
+        <p>This website is my personal portfolio, no reproduction without permission</p>
+        <p>此网站为本人个人作品集，未经许可，禁止转载！</p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="Index.js"></script>
+</body>
+</html>

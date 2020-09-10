@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>LogKids</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">About</h4>
+                    <p class="text-muted">此网站为孙田一本人个人作品集展示。</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">联系我 Contact Me</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://space.bilibili.com/130853098/channel/detail?cid=148180" class="text-white">本人哔哩哔哩bilibili作品集相关视频</a></li>
+                        <li><h6 style="color: #ffffff">Email: terrysunty@qq.com</h6></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <strong>TerrySunty | LogKids</strong>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1>更快记录孩子们的行为表现</h1>
+            <a href="https://terrysunty.github.io/XZY-CS374-Project.github.io/">LogKids网站（由于Firebase为境外服务器，不使用VPN可能影响体验过程）</a>
+
+
+        </div>
+    </section>
+
+
+    <div class="album py-5 bg-transparent" align="center">
+        <div class="album py-5 bg-secondary" align="center" style="width:50%">
+            <h4 style="color: white">项目描述</h4>
+            <p style="color: white;text-align: left">
+                这个网站是为了让幼儿园老师能更快捷地记录孩子的行为而建立的，因为一个老师要对很多孩子负责，所以很难把事情写下来或者只靠脑子记住不同孩子的所有行为。
+                这是我和我的其他三位队友在韩国科学技术院(KAIST)春季学期完成的HCI课程的学期项目。我负责部分网站的设计，所有后台的实现以及部分幼儿园老师的访谈任务。
+                <br/>该网站是由JavaScript、HTML、CSS、Firebase和一些开源库实现的。
+                <br/>通过5次对幼儿园老师ide采访，我们得出老师一般有3个任务要做:为孩子做一个快速简短的日志，完成未完成的日志，复习孩子的数据，对孩子的行为进行总结。更多细节如下列截图所示。
+            </p>
+            <img src="./img/LogKids/1.png" alt="示意图1" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">网站主页，用户（幼儿园教师）可从已在网站中有记录的孩子中选择一个进行操作，也可建立一个新的孩子的档案。</p>
+            <br/>
+            <img src="./img/LogKids/2.png" alt="示意图2" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">添加一个新的孩子。</p>
+            <br/>
+            <img src="./img/LogKids/3.png" alt="示意图3" width="90%" height="100%" style="margin-top: 50px"><br>
+            <br/>
+            <img src="./img/LogKids/4.png" alt="示意图4" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">完成添加操作后，返回主页面。</p><br/>
+            <img src="./img/LogKids/5.png" alt="示意图5" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">让我们选择Tom作为样例进行操作演示吧。此页面向用户展示了任务菜单界面。</p><br/>
+            <img src="./img/LogKids/6.png" alt="示意图6" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">我们首先选择"Make Log"来完成对Tom的快速记录。当前页面所展示的是对Tom吃饭情况的记录，老师可以通过勾选提前定义好的情况描述和添加描述性标签来进行快速记录。
+            如果老师认为当前的描述已足够形容Tom该次的表现，老师可以点击“Complete Log"来完成此次记录，否则，可以点击”Save for Later"，在之后进行补充说明。</p><br>
+            <img src="./img/LogKids/7.png" alt="示意图7" width="90%" height="100%" style="margin-top: 50px"><br>
+            <img src="./img/LogKids/8.png" alt="示意图8" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">记录Tom在语文课上的学习情况。</p><br>
+            <img src="./img/LogKids/9.png" alt="示意图9" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">记录Tom睡觉的情况。</p><br>
+            <img src="./img/LogKids/10.png" alt="示意图10" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">现在，让我们来完成“完善记录”的任务。<br/>该页面向用户呈现了那些尚未完成的记录，所有记录都按照分类和时间标签进行排序。
+            <br/>让我们选择第三个来进行尝试！</p><br>
+            <img src="./img/LogKids/11.png" alt="示意图11" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">当前页面将向老师展示最近三次已完成的记录作为参考。为了使记录具有更多细节，老师还可在文本框中添加更多备注。
+                如果老师认为此次记录很重要，可以点击星标按钮，将本次记录标记为重要。</p><br>
+            <img src="./img/LogKids/12.png" alt="示意图12" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">现在，通过饼状图，让我们回顾一下Tom过去这段时间的所有表现。<br>老师可以选择需要统计的时间段和行为类别。点击Review按钮后，网站将展示可量化的行为表现的统计（有的类别没有该项），以及使用最多的五个描述性标签。</p><br>
+            <img src="./img/LogKids/13.png" alt="示意图13" width="90%" height="100%" style="margin-top: 50px"><br>
+            <p style="color: white">同时，该页面也会展示该类别最近的记录，按时间由近到远进行排序。</p><br>
+
+        </div>
+
+    </div>
+
+
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="float-right">
+            <a href="index.html" >返回首页</a><br/>
+            <a href="#">Back to top</a>
+        </p>
+        <p>This website is my personal portfolio, no reproduction without permission</p>
+        <p>此网站为本人个人作品集，未经许可，禁止转载！</p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="Index.js"></script>
+</body>
+</html>

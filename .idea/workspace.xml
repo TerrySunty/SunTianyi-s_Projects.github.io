@@ -29,6 +29,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\SunTianyi-s_Projects" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,6 +45,9 @@
       <workItem from="1599531813746" duration="6395000" />
       <workItem from="1599548614036" duration="9742000" />
       <workItem from="1599617984036" duration="9961000" />
+      <workItem from="1599660966558" duration="1219000" />
+      <workItem from="1599700156790" duration="14122000" />
+      <workItem from="1599721914021" duration="3181000" />
     </task>
     <servers />
   </component>
@@ -51,9 +59,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599535004434" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599635698483">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599702736954">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599635698483" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599702736954" />
   </component>
 </project>
