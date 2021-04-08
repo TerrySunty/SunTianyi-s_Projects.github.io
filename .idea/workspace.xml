@@ -54,7 +54,7 @@
       <recent name="D:\Desktop\SunTianyi-s_Projects" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -77,11 +77,14 @@
       <workItem from="1617854094394" duration="595000" />
       <workItem from="1617872590560" duration="3173000" />
       <workItem from="1617884869847" duration="3366000" />
+      <workItem from="1617894159674" duration="1012000" />
+      <workItem from="1617897332284" duration="108000" />
+      <workItem from="1617897584697" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
